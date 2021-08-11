@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="boot3.css">
+    <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
+
+    <title>Admin Area/Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark ">
+        <div class="container">
+          
+      
+
+            <button
+            class="navbar-toggler "
+            type="button" 
+           data-bs-toggle="collapse" 
+           data-bs-target="#navmenu">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <a href="#" class="navbar-brand">Adminstrap</a>
+        <div class="collapse navbar-collapse"  id="navmenu">
+            <ul class=" nav navbar-nav" >
+                <li class="active"><a href="boot3.html" class="nav-link">Dashboard</a></li>
+                <li><a href="pages.html" class="nav-link">Pages</a></li>
+                <li><a href="posts.html" class="nav-link">Posts</a></li>
+                <li><a href="user.html" class="nav-link">Users</a></li>
+            </ul>
+            <ul class=" nav navbar-nav ms-auto" >
+                <li> <a href="#" class="nav-link">Wellcome, Rollins</a></li>
+                <li><a href="login.html" class="nav-link">log out</a></li>
+              
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <header class="pb-10 mb-15" id="header" >
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-10">
+                    <h1><span class="bi bi-gear-fill"></span> <strong>Dashboard</strong>  <small style="color:#cccccc;">Manange your site </small></h1>
+                </div>
+                <div class="col-sm-2  text-center">
+                    <div class="dropdown pt-2">
+                        <button class="btn btn-default dropdown-toggle text-dark bg-light mt-10 " 
+                        id="dropdownmenu"
+                        type="button"
+                        data-toggler="dropdown" class="create">Create content <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a  type="button" data-toggle="modal" data-target="#addpage">Add Page</a></li>
+                            <li><a href="">Add Post</a></li>
+                            <li><a href=""></a>Add User</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="text-secondary my-2 mx-4 py-1 " id="broadcrumb" style="background-color:#cccccc;">
+        <div class="container">
+            <ol class="broadcrumb text-dark" style="list-style-type: none;">
+                <li class="active">Dashboard</li>
+            </ol>
+        </div>
+    </section>
+    <section class="" id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="list-group">
+                        <a href="boot3.html" class="list-group-item active " style="background-color: #f63117;">
+                           <span class="bi bi-gear-fill"></span> Dashboard </a>
+                        <a href="pages.html" class="list-group-item"><span class="bi bi-book"></span> Pages <span class="badge bg-secondary ms-auto">  12</span></a>
+                        <a href="posts.html" class="list-group-item"><span class="bi bi-pencil"></span> Post  <span class="badge bg-secondary">  33</span></a>
+                        <a href="user.html" class="list-group-item"><span class="bi bi-person-fill"></span> User  <span class="badge bg-secondary">  203</span></a>
+                    </div>
+                    <div class="well g-4">
+                        <h4>Disk Space Used</h4>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 60%;">60%</div>
+                        </div>
+                        <h4>Bandwidth Used</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 40%;">40%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 g-4">
+                    <div class="panel panel-default pb-5">
+                        <div class="panel-heading">
+                            <div class="p-2 panel-title text-light"style="background-color: #f63117;">
+                            Website Overview</div>
+                            <div class="panel-body">
+                                <div class="row">
+                                <div class="col-md-3 g-4">
+                                    <div class="well dash-box ">
+                                        <h2><i class="bi bi-person-fill"></i> 203</h2>
+                                        <h4>Users</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 g-4">
+                                    <div class="well dash-box ">
+                                        <h2><i class="bi bi-book"></i> 12</h2>
+                                        <h4>Pages</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 g-4">
+                                    <div class="well dash-box">
+                                        <h2><i class="bi bi-pencil-fill"></i> 33</h2>
+                                        <h4>posts</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 g-4">
+                                    <div class="well dash-box">
+                                        <h2><i class="bi bi-people-fill"></i> 12,334</h2>
+                                        <h4>visitors</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    </div>
+                    <div class="panel panel-default pb-4">
+                        <div class="panel-heading"></div>
+                     <h3><div class="panel-title text-dark" >Latest Users</div></h3>
+                        <div class="panel-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Joined</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill Smith</td>
+                                    <td>jillsmith@gmail.com</td>
+                                    <td>Dec 12,2016</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve Jackson</td>
+                                    <td>evejackson@gmail.com</td>
+                                    <td>Dec 15,2016</td>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>johndoe@gmail.com</td>
+                                    <td>Dec 17,2016</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" text-center p-1 mt-30" id="footer" style="background-color: #f63117;">
+       <h4><p>Copyright Adminstrap, &copy; 2021</p></h4> 
+    </footer>
+    <!----modals-->
+    <!----add page-->
+    <div class="modal fade" id="addpage" tabindex="-1" aria-labelledby="addpageLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <form action="">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addpageLabel">add page</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="">Page Title</label>
+                    <input type="text" class="form-control" placeholder="page title">
+                </div>
+                <div class="form-group">
+                 <label for="">Page body</label>
+                <textarea name="editor1"  class="form-control" id="" cols="30" rows="10"></textarea>
+                </div>
+                
+                <div class="checkbox">
+                    <label for="">
+                        <input type="checkbox">Published
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="">Meta Tags</label>
+                    <input type="text" class="form-control" placeholder="Add Some tags">
+                </div>
+                <div class="form-group">
+                 <label for="">Meta Description</label>
+                 <input type="text" class="form-control" placeholder="Add Meta Description">
+                </div>
+                </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save Changes</button>
+            </div>
+        </form>
+          </div>
+        </div>
+      </div>
+   
+    <script>
+        CKEDITOR.replace( 'editor1' );
+</script>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

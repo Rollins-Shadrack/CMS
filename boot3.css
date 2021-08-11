@@ -1,0 +1,156 @@
+body{
+    background: #f4f4f4;
+}
+.navbar{
+    min-height: 33px important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-nav > li> a >.navbar-brand{
+    padding-top: 6px important;
+    padding-bottom: 0;
+    height: 33px;
+}
+.navbar {
+    background-color: #fa2c10;
+  }
+  .navbar .navbar-brand {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #ffe1db;
+  }
+  .navbar .navbar-text {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-text a {
+    color: #ffe1db;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #ffe1db; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ecf0f1;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ffe1db;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffe1db;
+    background-color: #f63117;
+  }
+  .navbar .navbar-toggler {
+    border-color: #f63117;
+  }
+  .navbar .navbar-toggler:hover,
+  .navbar .navbar-toggler:focus {
+    background-color: #f63117;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #ecf0f1;
+  }
+  .navbar .navbar-link {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-link:hover {
+    color: #ffe1db;
+  }
+  
+  @media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffe1db;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ffe1db;
+      background-color: #f63117;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffe1db;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ffe1db;
+      background-color: #f63117;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffe1db;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ffe1db;
+      background-color: #f63117;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffe1db;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ffe1db;
+      background-color: #f63117;
+    }
+  }
+  
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffe1db;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffe1db;
+    background-color: #f63117;
+  }
+  /*header*/
+  #header{
+      background: #333333;
+      color: #ffffff;
+    
+  }
+  #header .create{
+      padding-top: 20px;
+      background: white;
+  }
+  .progress-bar{
+      background: #333333;
+      color: burlywood;
+  }
+  .dash-box{
+      text-align: center;
+  }
