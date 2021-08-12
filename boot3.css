@@ -154,3 +154,16 @@ body{
   .dash-box{
       text-align: center;
   }
+ .style::after{
+   position: absolute;
+   padding-right: 20px;
+ }
+ .style-2{
+   box-sizing: border-box;
+   padding-right: 20px
+ }
+ .img{
+   background-image: url(image/046ac5bc0f6a62e03f1c4d781153f516.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
